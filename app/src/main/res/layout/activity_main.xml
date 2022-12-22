@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="10dp"
+    android:background="@color/purple_200"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="86dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_horizontal"
+        android:text="sing up"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/Username"
+        android:hint="Username"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:background="@drawable/edittextbackground"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edittextbackground"
+        android:hint="password"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/edittextbackground"
+        android:hint="confirm password"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/black"
+        android:text="signup"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/sigin"
+        android:text="already have an account"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:backgroundTint="#02000000"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+</LinearLayout>
